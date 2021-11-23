@@ -1,0 +1,266 @@
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header,
+section {
+  margin-bottom: 13rem;
+}
+
+/* common css */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* utilities */
+
+.primary-title {
+  font-size: 7rem;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.secondary-title {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.primary-title span {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+.primary-btn {
+  padding: 0.8rem 2rem;
+  background: #24c024;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.7rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  outline: 2px solid #24c024;
+  background: white;
+  color: black;
+}
+
+/* header area css start */
+#header {
+  background: #0bff0b25;
+}
+
+.logo-container .logo {
+  width: 15rem;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 0 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 35%;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 400;
+}
+#nav a {
+  text-decoration: none;
+}
+
+.banner-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text {
+  margin-bottom: 1rem;
+}
+/* header area css end */
+
+/* about area css start */
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0 5rem;
+}
+
+.about-div {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #0bff0b18;
+  border-radius: 1rem;
+}
+
+.about-div:hover {
+  box-shadow: 0px 0px 15px 0px #aea7a7;
+}
+
+.about-div h3 {
+  font-size: 3rem;
+  margin: 1.2rem 0;
+}
+
+.about-div p {
+  font-size: 1.8rem;
+}
+
+.about-div img {
+  width: 25rem;
+  height: 25rem;
+}
+/* about area css end */
+
+/* course area css start */
+#courses h2 {
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.courses-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0 3rem;
+}
+
+.course {
+  padding: 2rem;
+
+  border-radius: 2rem;
+  box-shadow: 0px 0px 15px 0px #aea7a7;
+}
+
+.course-img-container {
+  margin-bottom: 2rem;
+}
+
+.course button {
+  margin-bottom: 1.5rem;
+}
+
+.course-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+/* course area css end */
+
+/* testimonial css start */
+.testimonial {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.testimonial-img-wrapper {
+  width: 20rem;
+  margin: 0 0 0 auto;
+}
+
+.testimonial p {
+  width: 40%;
+  text-align: left;
+  margin: 0 auto 0 5rem;
+}
+/* testimonial css end */
+
+/* footer area css start */
+#footer {
+  background: #1f1d1d;
+  color: white;
+  height: 25rem;
+  padding: 3rem 0;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer ul {
+  list-style-type: none;
+}
+
+.footer-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-left-container {
+  display: flex;
+  flex-basis: 25%;
+  align-items: center;
+}
+
+.footer-right-container {
+  display: flex;
+  flex-basis: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-right-top-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer area css end */ ;
